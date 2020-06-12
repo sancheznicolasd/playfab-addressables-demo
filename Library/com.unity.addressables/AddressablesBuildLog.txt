@@ -1,0 +1,83 @@
+Warning: The formatting in this file is subject to change.
+[Building Default Build Script] 16339130us
+ [ProcessAllGroups] 301170.2us
+ [ContentPipeline.BuildAssetBundles] 13446027.7us
+  [SwitchToBuildPlatform] 854.799999999614us
+  [RebuildSpriteAtlasCache] 4398.49999999979us
+  [BuildPlayerScripts] 9555122.2us
+  [CalculateSceneDependencyData] 1932.99999999908us
+  [CalculateAssetDependencyData] 2386059.9us
+   [LoadCachedData] 55541.3000000008us
+    1 items
+    [GetCachedInfoFile] 612.599999998565us
+    [Read and deserialize cache info] 25787.0000000003us
+     Time spent deserializing: 12ms
+     Cache hit count: 0
+    [Check for changed dependencies] 532.100000000355us
+   [SaveCachedData] 51237.4us
+    Saving 1 infos
+    [SetupOperations] 446.600000001126us
+    [SerializingCacheInfos] 49258.2000000002us
+  [AddHashToBundleNameTask] 1354.79999999916us
+  [StripUnusedSpriteSources] 1267.40000000063us
+  [CreateBuiltInShadersBundle] 6798.60000000008us
+  [GenerateBundlePacking] 16288.3000000002us
+  [UpdateBundleObjectLayout] 5783.99999999965us
+  [GenerateBundleCommands] 21850.0000000004us
+  [GenerateSubAssetPathMaps] 1219.69999999965us
+  [GenerateBundleMaps] 3984.09999999967us
+  [WriteSerializedFiles] 998651.099999999us
+   [RunCachedOperation] 994624.2us
+    Total Entries: 2, Processed: 2, Cached: 0
+    [Creating Cache Entries] 6998.49999999969us
+    [Load Cached Data] 1353.29999999885us
+     [LoadCachedData] 1343.89999999985us
+      2 items
+      [GetCachedInfoFile] 197.799999999916us
+      [Read and deserialize cache info] 1104.59999999875us
+       Time spent deserializing: 0ms
+       Cache hit count: 0
+      [Check for changed dependencies] 2.69999999909487us
+    [Process Entries] 974145.6us
+     [Writing File AssetBundleWriteOperation] 128575.700000001us
+     [Writing File AssetBundleWriteOperation] 822696.2us
+    [Process Cached Entries] 21.6000000000349us
+    [Saving to Cache] 8386.80000000022us
+     [Creating Cached Infos] 576.900000000023us
+     [SaveCachedData] 7797.69999999917us
+      Saving 2 infos
+      [SetupOperations] 196.599999999307us
+      [SyncPendingSaves] 10.7000000007247us
+      [SerializingCacheInfos] 7094.10000000025us
+  [ArchiveAndCompressBundles] 247589us
+   [CreateWorkItems] 5056.69999999918us
+   [Creating Cache Entries] 3256.69999999991us
+   [Load Cached Data] 1689.8999999994us
+    [LoadCachedData] 1680.59999999969us
+     2 items
+     [GetCachedInfoFile] 235.29999999846us
+     [Read and deserialize cache info] 1406.69999999955us
+      Time spent deserializing: 0ms
+      Cache hit count: 0
+     [Check for changed dependencies] 2.49999999869033us
+   [CopyingCachedFiles] 11.5999999998166us
+   [ArchiveItems] 216732.599999999us
+    Archiving 2 Bundles
+    [Archive 02b1f5536a8cf164791a13f21951b6df_unitybuiltinshaders.bundle] 174814.5us
+     [Copying From Cache Library/BuildCache/c0/c003d9c8ecae80f14631a15c6c9d4b2a/f74cce53e13fca64bfc07cb611031911/02b1f5536a8cf164791a13f21951b6df_unitybuiltinshaders.bundle -> Temp/com.unity.addressables/AssetBundles/02b1f5536a8cf164791a13f21951b6df_unitybuiltinshaders.bundle] 52222us
+    [Archive 88af7b77a8b8b911e2fdfb38b1c384b1.bundle] 175162.4us
+     [Copying From Cache Library/BuildCache/24/24b2d0f1f91c90c1193cbe8afb06b189/e72426ed97ae822f9418fdcc5aa0626c/88af7b77a8b8b911e2fdfb38b1c384b1.bundle -> Temp/com.unity.addressables/AssetBundles/88af7b77a8b8b911e2fdfb38b1c384b1.bundle] 52590.2us
+   [PostArchiveProcessing] 5080.59999999932us
+   [Copying To Cache] 2195.00000000153us
+    [SaveCachedData] 1886.70000000093us
+     Saving 2 infos
+     [SetupOperations] 190.599999999904us
+     [SyncPendingSaves] 7.7000000001135us
+     [SerializingCacheInfos] 1206.89999999922us
+  [GenerateLocationListsTask] 4166.59999999865us
+  [ExtractDataTask] 92.8000000003522us
+  [SyncPendingSaves] 13.6000000002241us
+ [PostProcessBundles] 38030.0999999999us
+  [Copying File Temp/com.unity.addressables/AssetBundles\88af7b77a8b8b911e2fdfb38b1c384b1.bundle -> Library/com.unity.addressables/aa/Windows/StandaloneWindows\defaultlocalgroup_assets_all_4411f06a9425b91963c53b20fcd247cc.bundle] 3101.20000000097us
+  [Copying File Temp/com.unity.addressables/AssetBundles\02b1f5536a8cf164791a13f21951b6df_unitybuiltinshaders.bundle -> Library/com.unity.addressables/aa/Windows/StandaloneWindows\defaultlocalgroup_unitybuiltinshaders_4bcd389b6845aa71a99b6b6ef55aa77e.bundle] 2466.20000000075us
+ [Catalog Entries.] 19371.8000000008us
