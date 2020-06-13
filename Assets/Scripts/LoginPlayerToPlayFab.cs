@@ -2,29 +2,41 @@
 using PlayFab.ClientModels;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
+using UnityEngine.UI;
 
 public class LoginPlayerToPlayFab : MonoBehaviour
 {
 
     public AssetReference assetReference;
-    
+    public TextMeshPro textMesh;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         LoginToPlayFab();
-        Debug.Log("ReadyPlayerOne log in");
+        Debug.Log("ReadyPlayerOne logged in");
+        textMesh = GameObject.FindObjectOfType<TextMeshPro>();
+        textMesh.text = "ReadyPlayerOne Logged In";
         assetReference.InstantiateAsync();
+        textMesh = GameObject.FindObjectOfType<TextMeshPro>();
+        textMesh.text = "Asset loaded from Github";
+
     }
-    
+
 
     // Update is called once per frame
     void Update()
     {
 
     }
+
+    
     private IEnumerator LoginToPlayFab()
     {
         var loginSuccessful = false;

@@ -46,7 +46,7 @@ MonoBehaviour:
       - m_Id: 7cf26d51504b8ca45b46fd754503186b
         m_Value: ServerData/[BuildTarget]
       - m_Id: 59614913c5858d742bbbef7a8deb9612
-        m_Value: http://localhost/[BuildTarget]
+        m_Value: https://github.com/sancheznicolasd/cdn-repo/blob/master/StandaloneWindows
     m_ProfileEntryNames:
     - m_Id: 2dca74631941bc1438ce98b96b9b2685
       m_Name: BuildTarget
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
-  m_ActivePlayerDataBuilderIndex: 4
+  m_ActivePlayerDataBuilderIndex: 3
   m_DataBuilders:
   - {fileID: 11400000, guid: 9a4852669f41ea843b5ca33da9ce39ea, type: 2}
   - {fileID: 11400000, guid: 3abb12680f63b2b49bd42c136a14ae12, type: 2}
